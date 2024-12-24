@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/employeesRecyclerView"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:background="#1F1F1F"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+
+<Button
+android:id="@+id/backButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Назад"
+android:textColor="#FFFFFF"
+    android:background="@drawable/rounded_button"
+    android:fontFamily="sans-serif-medium"
+    android:textSize="18sp"
+    android:layout_gravity="center"
+    android:elevation="4dp" />
+
+    </LinearLayout>

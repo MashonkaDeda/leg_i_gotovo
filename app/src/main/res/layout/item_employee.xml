@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#121212"> <!-- Черный фон для всего контейнера -->
+
+    <ImageView
+        android:id="@+id/employeeImage"
+        android:layout_width="94dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/employeeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFA500" /> <!-- Оранжевый цвет для имени -->
+
+        <TextView
+            android:id="@+id/employeePosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Position"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" /> <!-- Белый цвет для должности -->
+
+    </LinearLayout>
+</LinearLayout>
